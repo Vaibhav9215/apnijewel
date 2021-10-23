@@ -192,8 +192,8 @@ p {
   width: 100%;
   left:0;
   z-index:1000;
-  -webkit-transition:all 0.3s ease-out;
-  transition:all 0.3s ease-out; 
+  /* -webkit-transition:all 0.3s ease-out; */
+  /* transition:all 0.3s ease-out;  */
 }
 .navigation-wrap .nav-item{
   padding:0 0.5rem;
@@ -274,15 +274,6 @@ New-arrivals section Design
   position:relative;
   display:block;
   overflow: hidden;
-}
-.new-arrivals .card-banner .card-thumb img,
-.products .item-product img{
-  transition: all .5s ease-out 0s;
-}
-.new-arrivals .card-banner .card-thumb img:hover,
-.products .item-product img:hover{
-  transform:scale(1.2);
-  opacity:0.6;
 }
 
 
